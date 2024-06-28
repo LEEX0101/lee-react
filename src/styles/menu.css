@@ -59,16 +59,6 @@
   opacity: 80%;
 }
 
-.aboutRules {
-    color: white;
-    text-align: center;
-    opacity: 80%;
-}
-
-.aboutRules p {
-  color: white;
-  opacity: 80%;
-}
 @media only screen and (max-width: 1300px) {
   .menuList {
     grid-template-columns: 1fr 1fr;
