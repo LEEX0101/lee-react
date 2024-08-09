@@ -43,6 +43,7 @@
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    border-radius: 5px;
   }
   
   form textarea {
@@ -52,6 +53,7 @@
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    border-radius: 5px;
   }
   input::placeholder,
   textarea::placeholder {
