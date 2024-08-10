@@ -45,6 +45,7 @@
     height: 40px;
     border: none;
     border-radius: 10px !important;
+    margin-inline: 3px !important;
     background-color: #002cff;
     color: whitesmoke;
     font-size: 15px;
