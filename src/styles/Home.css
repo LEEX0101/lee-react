@@ -1,0 +1,24 @@
+/*
+  Watch.css is covering styling for Home page.
+  Additional style for Home page may be added here.
+  */
+
+    .button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #002cff;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+  }

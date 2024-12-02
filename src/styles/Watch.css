@@ -1,0 +1,52 @@
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .watch {
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 100px;
+    background-color: black;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top: 100px; /*lowering this number causes the navbar links to not work when viewing home video/watch video*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+  }
+
+  button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px !important;
+    margin-inline: 3px !important;
+    background-color: #002cff;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }
