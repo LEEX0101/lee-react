@@ -38,7 +38,7 @@ const Projects = () => {
 };
 
 const ProjectCard = ({ project }: { project: Project }) => (
-  <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+  <div className="bg-slate-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
     <img
       src={project.image}
       alt={project.title}
